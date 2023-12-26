@@ -1,6 +1,6 @@
 1.
 
-SELECT e.Name, COALESCE(d.DepartmentName, 'Unassigned') AS DepartmentName
+SELECT * e.Name, COALESCE(d.DepartmentName, 'Unassigned') AS DepartmentName
 FROM EmployeeTable e
 LEFT JOIN DepartmentTable d ON e.DepartmentID = d.DepartmentID;
 
