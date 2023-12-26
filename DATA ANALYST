@@ -1,23 +1,18 @@
-1. To retrieve the names of employees along with their department names, you can use a LEFT JOIN to include employees who don't belong to any department. Here's an example query:
+1.
 
-sql
 SELECT e.Name, COALESCE(d.DepartmentName, 'Unassigned') AS DepartmentName
 FROM EmployeeTable e
 LEFT JOIN DepartmentTable d ON e.DepartmentID = d.DepartmentID;
 
 
-2. To find the total number of employees in each department, you can use the COUNT function along with GROUP BY. Here's an example query:
-
-sql
+2. 
 SELECT d.DepartmentName, COUNT(e.EmployeeID) AS TotalEmployees
 FROM DepartmentTable d
 LEFT JOIN EmployeeTable e ON d.DepartmentID = e.DepartmentID
 GROUP BY d.DepartmentName;
 
 
-3. To find departments where the average salary is greater than 5500.00, you can use the AVG function and a HAVING clause. Here's an example query:
-
-sql
+3. 
 SELECT d.DepartmentName
 FROM DepartmentTable d
 LEFT JOIN EmployeeTable e ON d.DepartmentID = e.DepartmentID
@@ -25,17 +20,13 @@ GROUP BY d.DepartmentName
 HAVING AVG(e.Salary) > 5500.00;
 
 
-4. To retrieve the names and hire dates of employees hired after '2022-03-01', you can use a simple WHERE clause. Here's an example query:
-
-sql
+4.
 SELECT Name, HireDate
 FROM EmployeeTable
 WHERE HireDate > '2022-03-01';
 
 
-5. To calculate the average salary for each employee along with their salary, effective date, and the difference between their salary and the average salary, you can use a subquery. Here's an example query:
-
-sql
+5. 
 SELECT e.Name, e.Salary, e.EffectiveDate, e.Salary - avg_salary AS SalaryDifference
 FROM EmployeeTable e
 JOIN (
