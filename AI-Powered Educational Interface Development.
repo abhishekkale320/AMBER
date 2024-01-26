@@ -1,0 +1,2052 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGiP8Ssv+fQZM0lXbOYVeT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "4a327a1d69374125ab0437c70dd05e9b": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_ecbb473bf5fd40ffa38d1f8bbdee1d21",
+              "IPY_MODEL_a54d251c684a42bfa5dbaba86f867694",
+              "IPY_MODEL_1b203fba8c17458b960093a06661149e"
+            ],
+            "layout": "IPY_MODEL_adbcb6cb6a1f43488d56d5d2ac478094"
+          }
+        },
+        "ecbb473bf5fd40ffa38d1f8bbdee1d21": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_63c34e86709240f493d07762c56d7794",
+            "placeholder": "​",
+            "style": "IPY_MODEL_b9f2bba368f74e0abb377a1f05903a2c",
+            "value": "config.json: 100%"
+          }
+        },
+        "a54d251c684a42bfa5dbaba86f867694": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_613cd26d31cc4a06a107d4d1662ec4d5",
+            "max": 493,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_8de1cf329eb04b4bb598daf00bb0ff23",
+            "value": 493
+          }
+        },
+        "1b203fba8c17458b960093a06661149e": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_97dd246228fc4be78625a26e2bfb9a78",
+            "placeholder": "​",
+            "style": "IPY_MODEL_9825b2c487834b409554de9000ea3028",
+            "value": " 493/493 [00:00&lt;00:00, 17.0kB/s]"
+          }
+        },
+        "adbcb6cb6a1f43488d56d5d2ac478094": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "63c34e86709240f493d07762c56d7794": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "b9f2bba368f74e0abb377a1f05903a2c": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "613cd26d31cc4a06a107d4d1662ec4d5": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "8de1cf329eb04b4bb598daf00bb0ff23": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "97dd246228fc4be78625a26e2bfb9a78": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "9825b2c487834b409554de9000ea3028": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "372d234a9c944977b8447613b25738dd": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_8098011a03524ddf91d97afacd1a80d8",
+              "IPY_MODEL_b15a558a9f8240ad987d46deba723101",
+              "IPY_MODEL_773d738b91e1477a9cc83f7a4e39bcb1"
+            ],
+            "layout": "IPY_MODEL_0d7afa455a23462c8572408922939a91"
+          }
+        },
+        "8098011a03524ddf91d97afacd1a80d8": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_b8bba0b1f8dd4e35bdfa2879e157c687",
+            "placeholder": "​",
+            "style": "IPY_MODEL_0502ef63f29047259d92119d56cf6b61",
+            "value": "pytorch_model.bin: 100%"
+          }
+        },
+        "b15a558a9f8240ad987d46deba723101": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "success",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_fd2d364a3df44a8c8f85b8a4b6f2c3f4",
+            "max": 437986065,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_f38a30551b9e4cdcb845e2a7551fc18f",
+            "value": 437986065
+          }
+        },
+        "773d738b91e1477a9cc83f7a4e39bcb1": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "HTMLModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "HTMLModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "HTMLView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_fa7ba1671f724851ae884db54f47e94a",
+            "placeholder": "​",
+            "style": "IPY_MODEL_6a46bf39098e449087272adeb0f21dfa",
+            "value": " 438M/438M [00:02&lt;00:00, 163MB/s]"
+          }
+        },
+        "0d7afa455a23462c8572408922939a91": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "b8bba0b1f8dd4e35bdfa2879e157c687": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "0502ef63f29047259d92119d56cf6b61": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "fd2d364a3df44a8c8f85b8a4b6f2c3f4": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f38a30551b9e4cdcb845e2a7551fc18f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        },
+        "fa7ba1671f724851ae884db54f47e94a": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "6a46bf39098e449087272adeb0f21dfa": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/abhishekkale320/AMBER/blob/main/AI-Powered%20Educational%20Interface%20Development.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "FIwQebiHiBBU"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from getpass import getpass\n",
+        "\n",
+        "# Set up your Hugging Face token\n",
+        "hf_username = input(\"abhishekkale: \")\n",
+        "hf_token = getpass(\"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: \")\n",
+        "\n",
+        "# Set the Hugging Face token as an environment variable\n",
+        "%env HF_HOME=/content/huggingface\n",
+        "%env HF_TOKEN={hf_token}\n",
+        "%env HF_USERNAME={hf_username}\n",
+        "\n",
+        "# Install the huggingface library\n",
+        "!pip install git+https://github.com/huggingface/huggingface_hub.git\n",
+        "\n",
+        "# Verify the token\n",
+        "!huggingface-cli whoami\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bfhrDBLif6b5",
+        "outputId": "f5b3395e-4425-4409-e735-330ae71cebf3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "abhishekkale: abhishekkale\n",
+            "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: ··········\n",
+            "env: HF_HOME=/content/huggingface\n",
+            "env: HF_TOKEN=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\n",
+            "env: HF_USERNAME=abhishekkale\n",
+            "Collecting git+https://github.com/huggingface/huggingface_hub.git\n",
+            "  Cloning https://github.com/huggingface/huggingface_hub.git to /tmp/pip-req-build-7uq3fn_7\n",
+            "  Running command git clone --filter=blob:none --quiet https://github.com/huggingface/huggingface_hub.git /tmp/pip-req-build-7uq3fn_7\n",
+            "  Resolved https://github.com/huggingface/huggingface_hub.git to commit c85f3eed0b4c6bcac0e85058e9a1d33292c67091\n",
+            "  Installing build dependencies ... \u001b[?25l\u001b[?25hdone\n",
+            "  Getting requirements to build wheel ... \u001b[?25l\u001b[?25hdone\n",
+            "  Preparing metadata (pyproject.toml) ... \u001b[?25l\u001b[?25hdone\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (3.13.1)\n",
+            "Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (2023.6.0)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (2.31.0)\n",
+            "Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (4.66.1)\n",
+            "Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (6.0.1)\n",
+            "Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (4.5.0)\n",
+            "Requirement already satisfied: packaging>=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface_hub==0.21.0.dev0) (23.2)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface_hub==0.21.0.dev0) (3.3.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface_hub==0.21.0.dev0) (3.6)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface_hub==0.21.0.dev0) (2.0.7)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface_hub==0.21.0.dev0) (2023.11.17)\n",
+            "abhishekkale\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Zk4OtBdD_QnS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from transformers import DPRQuestionEncoder, DPRContextEncoder, DPRReader\n",
+        "\n",
+        "# Load the DPR models\n",
+        "question_encoder = DPRQuestionEncoder.from_pretrained(\"facebook/dpr-question_encoder-single-nq-base\")\n",
+        "context_encoder = DPRContextEncoder.from_pretrained(\"facebook/dpr-question_encoder-single-nq-base\")\n",
+        "reader = DPRReader.from_pretrained(\"facebook/dpr-question_encoder-single-nq-base\")\n"
+      ],
+      "metadata": {
+        "id": "-DjvJifWWsW2",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 327,
+          "referenced_widgets": [
+            "4a327a1d69374125ab0437c70dd05e9b",
+            "ecbb473bf5fd40ffa38d1f8bbdee1d21",
+            "a54d251c684a42bfa5dbaba86f867694",
+            "1b203fba8c17458b960093a06661149e",
+            "adbcb6cb6a1f43488d56d5d2ac478094",
+            "63c34e86709240f493d07762c56d7794",
+            "b9f2bba368f74e0abb377a1f05903a2c",
+            "613cd26d31cc4a06a107d4d1662ec4d5",
+            "8de1cf329eb04b4bb598daf00bb0ff23",
+            "97dd246228fc4be78625a26e2bfb9a78",
+            "9825b2c487834b409554de9000ea3028",
+            "372d234a9c944977b8447613b25738dd",
+            "8098011a03524ddf91d97afacd1a80d8",
+            "b15a558a9f8240ad987d46deba723101",
+            "773d738b91e1477a9cc83f7a4e39bcb1",
+            "0d7afa455a23462c8572408922939a91",
+            "b8bba0b1f8dd4e35bdfa2879e157c687",
+            "0502ef63f29047259d92119d56cf6b61",
+            "fd2d364a3df44a8c8f85b8a4b6f2c3f4",
+            "f38a30551b9e4cdcb845e2a7551fc18f",
+            "fa7ba1671f724851ae884db54f47e94a",
+            "6a46bf39098e449087272adeb0f21dfa"
+          ]
+        },
+        "outputId": "876a3c48-2f00-4d12-dbc1-85df361061fa"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_token.py:88: UserWarning: \n",
+            "The secret `HF_TOKEN` does not exist in your Colab secrets.\n",
+            "To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.\n",
+            "You will be able to reuse this secret in all of your notebooks.\n",
+            "Please note that authentication is recommended but still optional to access public models or datasets.\n",
+            "  warnings.warn(\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "config.json:   0%|          | 0.00/493 [00:00<?, ?B/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "4a327a1d69374125ab0437c70dd05e9b"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "pytorch_model.bin:   0%|          | 0.00/438M [00:00<?, ?B/s]"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "372d234a9c944977b8447613b25738dd"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "Some weights of the model checkpoint at facebook/dpr-question_encoder-single-nq-base were not used when initializing DPRQuestionEncoder: ['question_encoder.bert_model.pooler.dense.weight', 'question_encoder.bert_model.pooler.dense.bias']\n",
+            "- This IS expected if you are initializing DPRQuestionEncoder from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).\n",
+            "- This IS NOT expected if you are initializing DPRQuestionEncoder from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).\n",
+            "Some weights of DPRContextEncoder were not initialized from the model checkpoint at facebook/dpr-question_encoder-single-nq-base and are newly initialized: ['bert_model.encoder.layer.3.output.dense.weight', 'bert_model.encoder.layer.11.output.LayerNorm.weight', 'bert_model.encoder.layer.5.attention.self.value.bias', 'bert_model.encoder.layer.4.attention.output.dense.weight', 'bert_model.encoder.layer.3.output.dense.bias', 'bert_model.encoder.layer.10.output.dense.weight', 'bert_model.encoder.layer.0.output.dense.bias', 'bert_model.encoder.layer.11.output.dense.weight', 'bert_model.encoder.layer.10.attention.self.query.weight', 'bert_model.encoder.layer.2.attention.self.query.bias', 'bert_model.encoder.layer.3.attention.self.key.weight', 'bert_model.encoder.layer.3.attention.self.key.bias', 'bert_model.encoder.layer.2.output.LayerNorm.weight', 'bert_model.encoder.layer.4.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.10.intermediate.dense.weight', 'bert_model.encoder.layer.9.output.LayerNorm.bias', 'bert_model.encoder.layer.2.intermediate.dense.bias', 'bert_model.encoder.layer.11.attention.self.value.bias', 'bert_model.encoder.layer.0.attention.output.dense.bias', 'bert_model.encoder.layer.5.attention.self.key.weight', 'bert_model.encoder.layer.0.attention.self.value.bias', 'bert_model.encoder.layer.1.attention.self.key.bias', 'bert_model.encoder.layer.1.output.dense.bias', 'bert_model.encoder.layer.6.output.dense.weight', 'bert_model.encoder.layer.9.attention.self.key.weight', 'bert_model.encoder.layer.9.attention.self.value.weight', 'bert_model.encoder.layer.10.attention.self.key.bias', 'bert_model.encoder.layer.6.attention.self.query.weight', 'bert_model.encoder.layer.6.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.4.attention.self.query.bias', 'bert_model.embeddings.LayerNorm.bias', 'bert_model.encoder.layer.10.attention.self.value.bias', 'bert_model.encoder.layer.1.attention.self.query.bias', 'bert_model.encoder.layer.7.attention.self.query.bias', 'bert_model.encoder.layer.8.output.LayerNorm.bias', 'bert_model.encoder.layer.11.attention.self.query.weight', 'bert_model.encoder.layer.2.attention.self.value.bias', 'bert_model.encoder.layer.5.output.LayerNorm.weight', 'bert_model.encoder.layer.11.output.dense.bias', 'bert_model.encoder.layer.7.attention.self.key.weight', 'bert_model.encoder.layer.4.attention.self.value.bias', 'bert_model.encoder.layer.0.attention.output.dense.weight', 'bert_model.encoder.layer.1.attention.output.dense.weight', 'bert_model.encoder.layer.7.output.dense.weight', 'bert_model.encoder.layer.3.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.7.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.10.attention.self.query.bias', 'bert_model.encoder.layer.0.attention.self.value.weight', 'bert_model.encoder.layer.8.attention.self.query.weight', 'bert_model.encoder.layer.4.attention.output.dense.bias', 'bert_model.encoder.layer.1.attention.self.key.weight', 'bert_model.encoder.layer.11.attention.output.dense.bias', 'bert_model.encoder.layer.4.intermediate.dense.weight', 'bert_model.encoder.layer.6.attention.self.value.weight', 'bert_model.encoder.layer.1.attention.self.value.bias', 'bert_model.encoder.layer.11.attention.self.key.bias', 'bert_model.encoder.layer.8.attention.self.value.bias', 'bert_model.encoder.layer.10.output.LayerNorm.bias', 'bert_model.encoder.layer.1.output.LayerNorm.bias', 'bert_model.encoder.layer.1.attention.self.query.weight', 'bert_model.encoder.layer.3.output.LayerNorm.bias', 'bert_model.encoder.layer.5.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.0.attention.self.key.bias', 'bert_model.encoder.layer.7.attention.output.dense.weight', 'bert_model.encoder.layer.9.attention.output.dense.weight', 'bert_model.encoder.layer.11.attention.output.dense.weight', 'bert_model.encoder.layer.10.intermediate.dense.bias', 'bert_model.encoder.layer.1.intermediate.dense.weight', 'bert_model.encoder.layer.11.intermediate.dense.bias', 'bert_model.encoder.layer.2.output.dense.weight', 'bert_model.encoder.layer.11.output.LayerNorm.bias', 'bert_model.encoder.layer.1.output.LayerNorm.weight', 'bert_model.encoder.layer.4.attention.self.query.weight', 'bert_model.encoder.layer.8.intermediate.dense.bias', 'bert_model.encoder.layer.6.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.7.attention.output.dense.bias', 'bert_model.embeddings.LayerNorm.weight', 'bert_model.encoder.layer.10.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.5.attention.self.value.weight', 'bert_model.encoder.layer.2.attention.self.query.weight', 'bert_model.encoder.layer.3.output.LayerNorm.weight', 'bert_model.encoder.layer.1.attention.output.dense.bias', 'bert_model.encoder.layer.2.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.4.intermediate.dense.bias', 'bert_model.encoder.layer.3.attention.self.query.weight', 'bert_model.encoder.layer.6.attention.self.query.bias', 'bert_model.embeddings.position_embeddings.weight', 'bert_model.encoder.layer.4.output.LayerNorm.weight', 'bert_model.encoder.layer.1.output.dense.weight', 'bert_model.encoder.layer.3.attention.self.value.weight', 'bert_model.encoder.layer.6.intermediate.dense.weight', 'bert_model.encoder.layer.8.attention.self.key.bias', 'bert_model.encoder.layer.11.intermediate.dense.weight', 'bert_model.encoder.layer.0.output.LayerNorm.bias', 'bert_model.encoder.layer.9.attention.self.query.weight', 'bert_model.encoder.layer.9.intermediate.dense.bias', 'bert_model.encoder.layer.4.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.10.output.dense.bias', 'bert_model.encoder.layer.8.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.6.output.LayerNorm.bias', 'bert_model.encoder.layer.6.output.LayerNorm.weight', 'bert_model.encoder.layer.2.attention.output.dense.bias', 'bert_model.encoder.layer.2.output.dense.bias', 'bert_model.encoder.layer.7.attention.self.key.bias', 'bert_model.encoder.layer.8.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.5.output.dense.weight', 'bert_model.encoder.layer.6.attention.self.key.bias', 'bert_model.encoder.layer.6.attention.self.key.weight', 'bert_model.encoder.layer.5.attention.self.query.bias', 'bert_model.encoder.layer.6.attention.output.dense.weight', 'bert_model.encoder.layer.4.attention.self.value.weight', 'bert_model.encoder.layer.0.intermediate.dense.weight', 'bert_model.encoder.layer.3.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.8.output.LayerNorm.weight', 'bert_model.encoder.layer.1.intermediate.dense.bias', 'bert_model.encoder.layer.8.attention.output.dense.bias', 'bert_model.encoder.layer.11.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.9.attention.self.key.bias', 'bert_model.encoder.layer.10.attention.output.dense.bias', 'bert_model.encoder.layer.4.attention.self.key.weight', 'bert_model.encoder.layer.4.attention.self.key.bias', 'bert_model.encoder.layer.5.attention.output.dense.bias', 'bert_model.encoder.layer.11.attention.self.key.weight', 'bert_model.encoder.layer.2.output.LayerNorm.bias', 'bert_model.encoder.layer.5.output.dense.bias', 'bert_model.encoder.layer.8.output.dense.weight', 'bert_model.encoder.layer.7.output.dense.bias', 'bert_model.encoder.layer.5.output.LayerNorm.bias', 'bert_model.encoder.layer.7.attention.self.query.weight', 'bert_model.encoder.layer.3.intermediate.dense.bias', 'bert_model.encoder.layer.2.intermediate.dense.weight', 'bert_model.encoder.layer.7.intermediate.dense.weight', 'bert_model.encoder.layer.6.attention.output.dense.bias', 'bert_model.encoder.layer.9.output.dense.bias', 'bert_model.encoder.layer.2.attention.self.key.bias', 'bert_model.embeddings.word_embeddings.weight', 'bert_model.encoder.layer.10.attention.self.key.weight', 'bert_model.encoder.layer.10.output.LayerNorm.weight', 'bert_model.encoder.layer.0.attention.self.query.bias', 'bert_model.encoder.layer.6.attention.self.value.bias', 'bert_model.encoder.layer.6.output.dense.bias', 'bert_model.encoder.layer.9.intermediate.dense.weight', 'bert_model.encoder.layer.1.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.11.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.9.attention.output.dense.bias', 'bert_model.encoder.layer.8.intermediate.dense.weight', 'bert_model.encoder.layer.0.attention.self.query.weight', 'bert_model.encoder.layer.3.attention.output.dense.weight', 'bert_model.encoder.layer.7.intermediate.dense.bias', 'bert_model.encoder.layer.9.attention.output.LayerNorm.weight', 'bert_model.embeddings.token_type_embeddings.weight', 'bert_model.encoder.layer.3.attention.self.query.bias', 'bert_model.encoder.layer.9.output.dense.weight', 'bert_model.encoder.layer.1.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.10.attention.output.dense.weight', 'bert_model.encoder.layer.8.attention.self.value.weight', 'bert_model.encoder.layer.2.attention.output.dense.weight', 'bert_model.encoder.layer.9.attention.self.value.bias', 'bert_model.encoder.layer.5.attention.output.dense.weight', 'bert_model.encoder.layer.0.intermediate.dense.bias', 'bert_model.encoder.layer.9.attention.self.query.bias', 'bert_model.encoder.layer.5.attention.self.query.weight', 'bert_model.encoder.layer.4.output.LayerNorm.bias', 'bert_model.encoder.layer.8.attention.output.dense.weight', 'bert_model.encoder.layer.4.output.dense.bias', 'bert_model.encoder.layer.4.output.dense.weight', 'bert_model.encoder.layer.0.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.3.attention.output.dense.bias', 'bert_model.encoder.layer.6.intermediate.dense.bias', 'bert_model.encoder.layer.3.intermediate.dense.weight', 'bert_model.encoder.layer.7.attention.self.value.bias', 'bert_model.encoder.layer.0.attention.self.key.weight', 'bert_model.encoder.layer.11.attention.self.query.bias', 'bert_model.encoder.layer.5.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.11.attention.self.value.weight', 'bert_model.encoder.layer.2.attention.self.value.weight', 'bert_model.encoder.layer.0.output.dense.weight', 'bert_model.encoder.layer.7.output.LayerNorm.weight', 'bert_model.encoder.layer.9.output.LayerNorm.weight', 'bert_model.encoder.layer.5.intermediate.dense.bias', 'bert_model.encoder.layer.7.attention.self.value.weight', 'bert_model.encoder.layer.0.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.2.attention.output.LayerNorm.bias', 'bert_model.encoder.layer.10.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.5.attention.self.key.bias', 'bert_model.encoder.layer.10.attention.self.value.weight', 'bert_model.encoder.layer.7.output.LayerNorm.bias', 'bert_model.encoder.layer.2.attention.self.key.weight', 'bert_model.encoder.layer.8.output.dense.bias', 'bert_model.encoder.layer.7.attention.output.LayerNorm.weight', 'bert_model.encoder.layer.0.output.LayerNorm.weight', 'bert_model.encoder.layer.5.intermediate.dense.weight', 'bert_model.encoder.layer.8.attention.self.key.weight', 'bert_model.encoder.layer.8.attention.self.query.bias', 'bert_model.encoder.layer.1.attention.self.value.weight', 'bert_model.encoder.layer.3.attention.self.value.bias', 'bert_model.encoder.layer.9.attention.output.LayerNorm.bias']\n",
+            "You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n",
+            "Some weights of DPRReader were not initialized from the model checkpoint at facebook/dpr-question_encoder-single-nq-base and are newly initialized: ['encoder.bert_model.encoder.layer.0.attention.self.query.weight', 'encoder.bert_model.encoder.layer.8.output.dense.bias', 'encoder.bert_model.encoder.layer.6.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.7.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.0.attention.self.key.weight', 'qa_classifier.bias', 'encoder.bert_model.encoder.layer.4.attention.self.value.bias', 'encoder.bert_model.encoder.layer.4.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.1.output.dense.weight', 'encoder.bert_model.encoder.layer.8.attention.self.query.weight', 'encoder.bert_model.embeddings.LayerNorm.bias', 'encoder.bert_model.encoder.layer.6.attention.self.key.weight', 'encoder.bert_model.encoder.layer.9.attention.self.value.weight', 'encoder.bert_model.encoder.layer.1.attention.self.value.weight', 'encoder.bert_model.encoder.layer.6.attention.self.query.weight', 'encoder.bert_model.encoder.layer.10.attention.self.value.weight', 'encoder.bert_model.encoder.layer.6.output.dense.weight', 'encoder.bert_model.encoder.layer.1.attention.self.query.bias', 'encoder.bert_model.encoder.layer.2.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.1.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.11.attention.self.key.bias', 'encoder.bert_model.encoder.layer.1.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.7.output.dense.bias', 'encoder.bert_model.encoder.layer.2.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.11.attention.self.query.weight', 'encoder.bert_model.encoder.layer.10.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.2.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.6.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.7.attention.self.value.bias', 'encoder.bert_model.encoder.layer.1.attention.self.query.weight', 'encoder.bert_model.encoder.layer.3.attention.self.value.bias', 'encoder.bert_model.encoder.layer.1.attention.self.value.bias', 'encoder.bert_model.encoder.layer.4.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.6.attention.self.value.weight', 'encoder.bert_model.encoder.layer.10.output.dense.bias', 'encoder.bert_model.encoder.layer.3.output.dense.weight', 'encoder.bert_model.encoder.layer.9.attention.self.query.bias', 'encoder.bert_model.encoder.layer.9.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.10.attention.self.value.bias', 'encoder.bert_model.encoder.layer.4.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.5.attention.self.value.bias', 'encoder.bert_model.encoder.layer.2.attention.self.key.bias', 'encoder.bert_model.encoder.layer.5.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.0.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.3.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.9.attention.self.value.bias', 'encoder.bert_model.encoder.layer.1.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.0.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.0.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.2.attention.self.value.weight', 'encoder.bert_model.encoder.layer.1.attention.self.key.weight', 'encoder.bert_model.encoder.layer.9.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.2.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.0.output.dense.weight', 'encoder.bert_model.encoder.layer.5.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.5.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.0.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.5.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.7.attention.self.value.weight', 'encoder.bert_model.encoder.layer.3.attention.self.value.weight', 'encoder.bert_model.encoder.layer.4.output.dense.bias', 'encoder.bert_model.encoder.layer.7.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.3.output.dense.bias', 'encoder.bert_model.encoder.layer.11.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.2.attention.self.value.bias', 'encoder.bert_model.encoder.layer.4.attention.self.query.weight', 'encoder.bert_model.encoder.layer.8.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.11.output.dense.weight', 'encoder.bert_model.encoder.layer.3.attention.output.LayerNorm.bias', 'encoder.bert_model.embeddings.word_embeddings.weight', 'encoder.bert_model.encoder.layer.4.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.9.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.4.attention.self.key.bias', 'encoder.bert_model.encoder.layer.7.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.2.output.dense.weight', 'encoder.bert_model.encoder.layer.2.attention.self.query.weight', 'encoder.bert_model.encoder.layer.8.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.11.attention.self.query.bias', 'encoder.bert_model.encoder.layer.11.attention.self.key.weight', 'encoder.bert_model.encoder.layer.0.attention.self.key.bias', 'encoder.bert_model.encoder.layer.6.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.4.attention.self.query.bias', 'encoder.bert_model.encoder.layer.9.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.9.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.10.attention.self.key.weight', 'encoder.bert_model.encoder.layer.0.output.dense.bias', 'encoder.bert_model.encoder.layer.9.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.11.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.4.attention.output.dense.bias', 'qa_outputs.weight', 'encoder.bert_model.encoder.layer.2.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.4.attention.self.value.weight', 'encoder.bert_model.encoder.layer.9.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.1.attention.self.key.bias', 'encoder.bert_model.encoder.layer.0.attention.self.value.bias', 'encoder.bert_model.encoder.layer.5.output.dense.weight', 'encoder.bert_model.encoder.layer.3.attention.self.query.weight', 'encoder.bert_model.encoder.layer.7.output.dense.weight', 'encoder.bert_model.encoder.layer.9.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.7.attention.self.key.weight', 'encoder.bert_model.encoder.layer.7.attention.self.query.bias', 'encoder.bert_model.encoder.layer.11.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.1.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.6.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.3.attention.self.key.bias', 'encoder.bert_model.encoder.layer.3.attention.self.key.weight', 'encoder.bert_model.encoder.layer.9.attention.self.key.weight', 'encoder.bert_model.encoder.layer.4.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.8.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.6.attention.self.key.bias', 'encoder.bert_model.encoder.layer.3.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.5.attention.self.value.weight', 'encoder.bert_model.encoder.layer.10.attention.self.query.bias', 'encoder.bert_model.encoder.layer.11.attention.self.value.bias', 'encoder.bert_model.encoder.layer.4.output.dense.weight', 'encoder.bert_model.encoder.layer.2.attention.self.key.weight', 'encoder.bert_model.encoder.layer.0.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.11.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.2.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.0.attention.self.value.weight', 'encoder.bert_model.encoder.layer.8.attention.self.query.bias', 'qa_outputs.bias', 'encoder.bert_model.encoder.layer.6.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.6.attention.self.query.bias', 'encoder.bert_model.encoder.layer.6.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.7.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.6.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.0.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.8.attention.self.value.bias', 'encoder.bert_model.encoder.layer.8.output.dense.weight', 'encoder.bert_model.encoder.layer.5.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.10.attention.self.query.weight', 'encoder.bert_model.encoder.layer.0.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.10.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.11.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.1.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.9.attention.self.query.weight', 'encoder.bert_model.encoder.layer.1.output.dense.bias', 'encoder.bert_model.encoder.layer.4.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.11.output.dense.bias', 'encoder.bert_model.encoder.layer.4.attention.self.key.weight', 'encoder.bert_model.encoder.layer.5.attention.self.key.bias', 'encoder.bert_model.encoder.layer.1.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.8.attention.output.LayerNorm.bias', 'qa_classifier.weight', 'encoder.bert_model.encoder.layer.3.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.11.attention.self.value.weight', 'encoder.bert_model.encoder.layer.10.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.10.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.10.output.dense.weight', 'encoder.bert_model.encoder.layer.3.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.11.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.7.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.0.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.2.output.dense.bias', 'encoder.bert_model.encoder.layer.8.attention.self.key.bias', 'encoder.bert_model.encoder.layer.11.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.3.attention.self.query.bias', 'encoder.bert_model.encoder.layer.2.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.3.attention.output.LayerNorm.weight', 'encoder.bert_model.embeddings.LayerNorm.weight', 'encoder.bert_model.encoder.layer.6.output.dense.bias', 'encoder.bert_model.encoder.layer.5.attention.self.query.bias', 'encoder.bert_model.encoder.layer.2.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.5.attention.self.key.weight', 'encoder.bert_model.encoder.layer.5.attention.self.query.weight', 'encoder.bert_model.encoder.layer.7.attention.self.query.weight', 'encoder.bert_model.encoder.layer.1.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.8.attention.output.dense.weight', 'encoder.bert_model.encoder.layer.4.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.9.output.dense.weight', 'encoder.bert_model.encoder.layer.8.attention.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.10.intermediate.dense.bias', 'encoder.bert_model.embeddings.position_embeddings.weight', 'encoder.bert_model.encoder.layer.6.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.1.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.3.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.10.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.7.intermediate.dense.bias', 'encoder.bert_model.encoder.layer.8.attention.output.dense.bias', 'encoder.bert_model.encoder.layer.8.attention.self.value.weight', 'encoder.bert_model.encoder.layer.5.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.8.attention.self.key.weight', 'encoder.bert_model.encoder.layer.2.attention.self.query.bias', 'encoder.bert_model.encoder.layer.9.output.dense.bias', 'encoder.bert_model.encoder.layer.7.attention.self.key.bias', 'encoder.bert_model.embeddings.token_type_embeddings.weight', 'encoder.bert_model.encoder.layer.5.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.10.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.3.intermediate.dense.weight', 'encoder.bert_model.encoder.layer.6.attention.self.value.bias', 'encoder.bert_model.encoder.layer.7.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.11.attention.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.5.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.0.attention.self.query.bias', 'encoder.bert_model.encoder.layer.8.output.LayerNorm.bias', 'encoder.bert_model.encoder.layer.5.output.dense.bias', 'encoder.bert_model.encoder.layer.10.attention.self.key.bias', 'encoder.bert_model.encoder.layer.7.output.LayerNorm.weight', 'encoder.bert_model.encoder.layer.9.attention.self.key.bias', 'encoder.bert_model.encoder.layer.10.attention.output.dense.weight']\n",
+            "You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install gradio\n"
+      ],
+      "metadata": {
+        "id": "IIsWXMT2Wwaz",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a2aff943-f490-4308-c31f-c8f4ed47e6e6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: gradio in /usr/local/lib/python3.10/dist-packages (4.16.0)\n",
+            "Requirement already satisfied: aiofiles<24.0,>=22.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (23.2.1)\n",
+            "Requirement already satisfied: altair<6.0,>=4.2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (4.2.2)\n",
+            "Requirement already satisfied: fastapi in /usr/local/lib/python3.10/dist-packages (from gradio) (0.109.0)\n",
+            "Requirement already satisfied: ffmpy in /usr/local/lib/python3.10/dist-packages (from gradio) (0.3.1)\n",
+            "Requirement already satisfied: gradio-client==0.8.1 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.8.1)\n",
+            "Requirement already satisfied: httpx in /usr/local/lib/python3.10/dist-packages (from gradio) (0.26.0)\n",
+            "Requirement already satisfied: huggingface-hub>=0.19.3 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.21.0.dev0)\n",
+            "Requirement already satisfied: importlib-resources<7.0,>=1.3 in /usr/local/lib/python3.10/dist-packages (from gradio) (6.1.1)\n",
+            "Requirement already satisfied: jinja2<4.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.1.3)\n",
+            "Requirement already satisfied: markupsafe~=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.1.4)\n",
+            "Requirement already satisfied: matplotlib~=3.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.7.1)\n",
+            "Requirement already satisfied: numpy~=1.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (1.23.5)\n",
+            "Requirement already satisfied: orjson~=3.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.9.12)\n",
+            "Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from gradio) (23.2)\n",
+            "Requirement already satisfied: pandas<3.0,>=1.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (1.5.3)\n",
+            "Requirement already satisfied: pillow<11.0,>=8.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (9.4.0)\n",
+            "Requirement already satisfied: pydantic>=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.5.3)\n",
+            "Requirement already satisfied: pydub in /usr/local/lib/python3.10/dist-packages (from gradio) (0.25.1)\n",
+            "Requirement already satisfied: python-multipart in /usr/local/lib/python3.10/dist-packages (from gradio) (0.0.6)\n",
+            "Requirement already satisfied: pyyaml<7.0,>=5.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (6.0.1)\n",
+            "Requirement already satisfied: ruff>=0.1.7 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.1.14)\n",
+            "Requirement already satisfied: semantic-version~=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.10.0)\n",
+            "Requirement already satisfied: tomlkit==0.12.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.12.0)\n",
+            "Requirement already satisfied: typer[all]<1.0,>=0.9 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.9.0)\n",
+            "Requirement already satisfied: typing-extensions~=4.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (4.9.0)\n",
+            "Requirement already satisfied: uvicorn>=0.14.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.27.0)\n",
+            "Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from gradio-client==0.8.1->gradio) (2023.6.0)\n",
+            "Requirement already satisfied: websockets<12.0,>=10.0 in /usr/local/lib/python3.10/dist-packages (from gradio-client==0.8.1->gradio) (11.0.3)\n",
+            "Requirement already satisfied: entrypoints in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (0.4)\n",
+            "Requirement already satisfied: jsonschema>=3.0 in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (4.19.2)\n",
+            "Requirement already satisfied: toolz in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (0.12.0)\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (3.13.1)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (2.31.0)\n",
+            "Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (4.66.1)\n",
+            "Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (1.2.0)\n",
+            "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (0.12.1)\n",
+            "Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (4.47.2)\n",
+            "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (1.4.5)\n",
+            "Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (3.1.1)\n",
+            "Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (2.8.2)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas<3.0,>=1.0->gradio) (2023.3.post1)\n",
+            "Requirement already satisfied: annotated-types>=0.4.0 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.0->gradio) (0.6.0)\n",
+            "Requirement already satisfied: pydantic-core==2.14.6 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.0->gradio) (2.14.6)\n",
+            "Requirement already satisfied: click<9.0.0,>=7.1.1 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (8.1.7)\n",
+            "Requirement already satisfied: colorama<0.5.0,>=0.4.3 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (0.4.6)\n",
+            "Requirement already satisfied: shellingham<2.0.0,>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (1.5.4)\n",
+            "Requirement already satisfied: rich<14.0.0,>=10.11.0 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (13.7.0)\n",
+            "Requirement already satisfied: h11>=0.8 in /usr/local/lib/python3.10/dist-packages (from uvicorn>=0.14.0->gradio) (0.14.0)\n",
+            "Requirement already satisfied: starlette<0.36.0,>=0.35.0 in /usr/local/lib/python3.10/dist-packages (from fastapi->gradio) (0.35.1)\n",
+            "Requirement already satisfied: anyio in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (3.7.1)\n",
+            "Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (2023.11.17)\n",
+            "Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (1.0.2)\n",
+            "Requirement already satisfied: idna in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (3.6)\n",
+            "Requirement already satisfied: sniffio in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (1.3.0)\n",
+            "Requirement already satisfied: attrs>=22.2.0 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (23.2.0)\n",
+            "Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (2023.12.1)\n",
+            "Requirement already satisfied: referencing>=0.28.4 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (0.32.1)\n",
+            "Requirement already satisfied: rpds-py>=0.7.1 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (0.17.1)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib~=3.0->gradio) (1.16.0)\n",
+            "Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (3.0.0)\n",
+            "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (2.16.1)\n",
+            "Requirement already satisfied: exceptiongroup in /usr/local/lib/python3.10/dist-packages (from anyio->httpx->gradio) (1.2.0)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.19.3->gradio) (3.3.2)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.19.3->gradio) (2.0.7)\n",
+            "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (0.1.2)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip uninstall -y gradio\n",
+        "!pip install gradio==2.3.0\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2-4pleVIXMeM",
+        "outputId": "98f43ad3-eae9-4e41-8ec5-4dcce2354b89"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Found existing installation: gradio 4.15.0\n",
+            "Uninstalling gradio-4.15.0:\n",
+            "  Successfully uninstalled gradio-4.15.0\n",
+            "Collecting gradio==2.3.0\n",
+            "  Downloading gradio-2.3.0-py3-none-any.whl (3.4 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m4.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hCollecting Flask-Cors>=3.0.8 (from gradio==2.3.0)\n",
+            "  Downloading Flask_Cors-4.0.0-py2.py3-none-any.whl (14 kB)\n",
+            "Collecting Flask-Login (from gradio==2.3.0)\n",
+            "  Downloading Flask_Login-0.6.3-py3-none-any.whl (17 kB)\n",
+            "Requirement already satisfied: Flask>=1.1.1 in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (2.2.5)\n",
+            "Collecting analytics-python (from gradio==2.3.0)\n",
+            "  Downloading analytics_python-1.4.post1-py2.py3-none-any.whl (23 kB)\n",
+            "Requirement already satisfied: ffmpy in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (0.3.1)\n",
+            "Collecting flask-cachebuster (from gradio==2.3.0)\n",
+            "  Downloading Flask-CacheBuster-1.0.0.tar.gz (3.1 kB)\n",
+            "  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "Collecting markdown2 (from gradio==2.3.0)\n",
+            "  Downloading markdown2-2.4.12-py2.py3-none-any.whl (41 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m41.2/41.2 kB\u001b[0m \u001b[31m4.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: matplotlib in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (3.7.1)\n",
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (1.23.5)\n",
+            "Requirement already satisfied: pandas in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (1.5.3)\n",
+            "Collecting paramiko (from gradio==2.3.0)\n",
+            "  Downloading paramiko-3.4.0-py3-none-any.whl (225 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m225.9/225.9 kB\u001b[0m \u001b[31m18.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: pillow in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (9.4.0)\n",
+            "Collecting pycryptodome (from gradio==2.3.0)\n",
+            "  Downloading pycryptodome-3.20.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m18.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (2.31.0)\n",
+            "Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages (from gradio==2.3.0) (1.11.4)\n",
+            "Requirement already satisfied: Werkzeug>=2.2.2 in /usr/local/lib/python3.10/dist-packages (from Flask>=1.1.1->gradio==2.3.0) (3.0.1)\n",
+            "Requirement already satisfied: Jinja2>=3.0 in /usr/local/lib/python3.10/dist-packages (from Flask>=1.1.1->gradio==2.3.0) (3.1.3)\n",
+            "Requirement already satisfied: itsdangerous>=2.0 in /usr/local/lib/python3.10/dist-packages (from Flask>=1.1.1->gradio==2.3.0) (2.1.2)\n",
+            "Requirement already satisfied: click>=8.0 in /usr/local/lib/python3.10/dist-packages (from Flask>=1.1.1->gradio==2.3.0) (8.1.7)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from analytics-python->gradio==2.3.0) (1.16.0)\n",
+            "Collecting monotonic>=1.5 (from analytics-python->gradio==2.3.0)\n",
+            "  Downloading monotonic-1.6-py2.py3-none-any.whl (8.2 kB)\n",
+            "Collecting backoff==1.10.0 (from analytics-python->gradio==2.3.0)\n",
+            "  Downloading backoff-1.10.0-py2.py3-none-any.whl (31 kB)\n",
+            "Requirement already satisfied: python-dateutil>2.1 in /usr/local/lib/python3.10/dist-packages (from analytics-python->gradio==2.3.0) (2.8.2)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->gradio==2.3.0) (3.3.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->gradio==2.3.0) (3.6)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->gradio==2.3.0) (2.0.7)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->gradio==2.3.0) (2023.11.17)\n",
+            "Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (1.2.0)\n",
+            "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (0.12.1)\n",
+            "Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (4.47.2)\n",
+            "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (1.4.5)\n",
+            "Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (23.2)\n",
+            "Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib->gradio==2.3.0) (3.1.1)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas->gradio==2.3.0) (2023.3.post1)\n",
+            "Collecting bcrypt>=3.2 (from paramiko->gradio==2.3.0)\n",
+            "  Downloading bcrypt-4.1.2-cp39-abi3-manylinux_2_28_x86_64.whl (698 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m698.9/698.9 kB\u001b[0m \u001b[31m19.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: cryptography>=3.3 in /usr/local/lib/python3.10/dist-packages (from paramiko->gradio==2.3.0) (41.0.7)\n",
+            "Collecting pynacl>=1.5 (from paramiko->gradio==2.3.0)\n",
+            "  Downloading PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (856 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m856.7/856.7 kB\u001b[0m \u001b[31m23.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: cffi>=1.12 in /usr/local/lib/python3.10/dist-packages (from cryptography>=3.3->paramiko->gradio==2.3.0) (1.16.0)\n",
+            "Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from Jinja2>=3.0->Flask>=1.1.1->gradio==2.3.0) (2.1.4)\n",
+            "Requirement already satisfied: pycparser in /usr/local/lib/python3.10/dist-packages (from cffi>=1.12->cryptography>=3.3->paramiko->gradio==2.3.0) (2.21)\n",
+            "Building wheels for collected packages: flask-cachebuster\n",
+            "  Building wheel for flask-cachebuster (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for flask-cachebuster: filename=Flask_CacheBuster-1.0.0-py3-none-any.whl size=3354 sha256=e5f1cf6d0633b4ae985d177cc30f2c86764dd7b435f84363211941475786cb64\n",
+            "  Stored in directory: /root/.cache/pip/wheels/22/35/5e/088242cb16f309a4ff4e94ce97f1ef8a469983fdde92b45f50\n",
+            "Successfully built flask-cachebuster\n",
+            "Installing collected packages: monotonic, pycryptodome, markdown2, bcrypt, backoff, pynacl, analytics-python, paramiko, Flask-Login, Flask-Cors, flask-cachebuster, gradio\n",
+            "Successfully installed Flask-Cors-4.0.0 Flask-Login-0.6.3 analytics-python-1.4.post1 backoff-1.10.0 bcrypt-4.1.2 flask-cachebuster-1.0.0 gradio-2.3.0 markdown2-2.4.12 monotonic-1.6 paramiko-3.4.0 pycryptodome-3.20.0 pynacl-1.5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install -U typing-extensions\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vRbCLJaoXPOd",
+        "outputId": "1d020401-56d8-466a-ed9f-a282bf2059f0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: typing-extensions in /usr/local/lib/python3.10/dist-packages (4.9.0)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install typing-extensions==3.10.0.2\n"
+      ],
+      "metadata": {
+        "id": "0E3pA3JeXPR9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "e977ead2-1ec9-4d8c-b732-6ecdc6b60e88"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: typing-extensions==3.10.0.2 in /usr/local/lib/python3.10/dist-packages (3.10.0.2)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!python -m venv venv\n",
+        "!pip install virtualenv\n",
+        "!pip install -U gradio\n",
+        "!pip install -U typing-extensions\n"
+      ],
+      "metadata": {
+        "id": "4Khrw3y4XPU8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "06e6f287-c73a-4234-9207-1a258c7fd489"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The virtual environment was not created successfully because ensurepip is not\n",
+            "available.  On Debian/Ubuntu systems, you need to install the python3-venv\n",
+            "package using the following command.\n",
+            "\n",
+            "    apt install python3.10-venv\n",
+            "\n",
+            "You may need to use sudo with that command.  After installing the python3-venv\n",
+            "package, recreate your virtual environment.\n",
+            "\n",
+            "Failing command: /content/venv/bin/python3\n",
+            "\n",
+            "Requirement already satisfied: virtualenv in /usr/local/lib/python3.10/dist-packages (20.25.0)\n",
+            "Requirement already satisfied: distlib<1,>=0.3.7 in /usr/local/lib/python3.10/dist-packages (from virtualenv) (0.3.8)\n",
+            "Requirement already satisfied: filelock<4,>=3.12.2 in /usr/local/lib/python3.10/dist-packages (from virtualenv) (3.13.1)\n",
+            "Requirement already satisfied: platformdirs<5,>=3.9.1 in /usr/local/lib/python3.10/dist-packages (from virtualenv) (4.1.0)\n",
+            "Requirement already satisfied: gradio in /usr/local/lib/python3.10/dist-packages (4.16.0)\n",
+            "Requirement already satisfied: aiofiles<24.0,>=22.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (23.2.1)\n",
+            "Requirement already satisfied: altair<6.0,>=4.2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (4.2.2)\n",
+            "Requirement already satisfied: fastapi in /usr/local/lib/python3.10/dist-packages (from gradio) (0.109.0)\n",
+            "Requirement already satisfied: ffmpy in /usr/local/lib/python3.10/dist-packages (from gradio) (0.3.1)\n",
+            "Requirement already satisfied: gradio-client==0.8.1 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.8.1)\n",
+            "Requirement already satisfied: httpx in /usr/local/lib/python3.10/dist-packages (from gradio) (0.26.0)\n",
+            "Requirement already satisfied: huggingface-hub>=0.19.3 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.21.0.dev0)\n",
+            "Requirement already satisfied: importlib-resources<7.0,>=1.3 in /usr/local/lib/python3.10/dist-packages (from gradio) (6.1.1)\n",
+            "Requirement already satisfied: jinja2<4.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.1.3)\n",
+            "Requirement already satisfied: markupsafe~=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.1.4)\n",
+            "Requirement already satisfied: matplotlib~=3.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.7.1)\n",
+            "Requirement already satisfied: numpy~=1.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (1.23.5)\n",
+            "Requirement already satisfied: orjson~=3.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (3.9.12)\n",
+            "Requirement already satisfied: packaging in /usr/local/lib/python3.10/dist-packages (from gradio) (23.2)\n",
+            "Requirement already satisfied: pandas<3.0,>=1.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (1.5.3)\n",
+            "Requirement already satisfied: pillow<11.0,>=8.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (9.4.0)\n",
+            "Requirement already satisfied: pydantic>=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.5.3)\n",
+            "Requirement already satisfied: pydub in /usr/local/lib/python3.10/dist-packages (from gradio) (0.25.1)\n",
+            "Requirement already satisfied: python-multipart in /usr/local/lib/python3.10/dist-packages (from gradio) (0.0.6)\n",
+            "Requirement already satisfied: pyyaml<7.0,>=5.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (6.0.1)\n",
+            "Requirement already satisfied: ruff>=0.1.7 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.1.14)\n",
+            "Requirement already satisfied: semantic-version~=2.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (2.10.0)\n",
+            "Requirement already satisfied: tomlkit==0.12.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.12.0)\n",
+            "Requirement already satisfied: typer[all]<1.0,>=0.9 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.9.0)\n",
+            "Collecting typing-extensions~=4.0 (from gradio)\n",
+            "  Using cached typing_extensions-4.9.0-py3-none-any.whl (32 kB)\n",
+            "Requirement already satisfied: uvicorn>=0.14.0 in /usr/local/lib/python3.10/dist-packages (from gradio) (0.27.0)\n",
+            "Requirement already satisfied: fsspec in /usr/local/lib/python3.10/dist-packages (from gradio-client==0.8.1->gradio) (2023.6.0)\n",
+            "Requirement already satisfied: websockets<12.0,>=10.0 in /usr/local/lib/python3.10/dist-packages (from gradio-client==0.8.1->gradio) (11.0.3)\n",
+            "Requirement already satisfied: entrypoints in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (0.4)\n",
+            "Requirement already satisfied: jsonschema>=3.0 in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (4.19.2)\n",
+            "Requirement already satisfied: toolz in /usr/local/lib/python3.10/dist-packages (from altair<6.0,>=4.2.0->gradio) (0.12.0)\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (3.13.1)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (2.31.0)\n",
+            "Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.19.3->gradio) (4.66.1)\n",
+            "Requirement already satisfied: contourpy>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (1.2.0)\n",
+            "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (0.12.1)\n",
+            "Requirement already satisfied: fonttools>=4.22.0 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (4.47.2)\n",
+            "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (1.4.5)\n",
+            "Requirement already satisfied: pyparsing>=2.3.1 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (3.1.1)\n",
+            "Requirement already satisfied: python-dateutil>=2.7 in /usr/local/lib/python3.10/dist-packages (from matplotlib~=3.0->gradio) (2.8.2)\n",
+            "Requirement already satisfied: pytz>=2020.1 in /usr/local/lib/python3.10/dist-packages (from pandas<3.0,>=1.0->gradio) (2023.3.post1)\n",
+            "Requirement already satisfied: annotated-types>=0.4.0 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.0->gradio) (0.6.0)\n",
+            "Requirement already satisfied: pydantic-core==2.14.6 in /usr/local/lib/python3.10/dist-packages (from pydantic>=2.0->gradio) (2.14.6)\n",
+            "Requirement already satisfied: click<9.0.0,>=7.1.1 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (8.1.7)\n",
+            "Requirement already satisfied: colorama<0.5.0,>=0.4.3 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (0.4.6)\n",
+            "Requirement already satisfied: shellingham<2.0.0,>=1.3.0 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (1.5.4)\n",
+            "Requirement already satisfied: rich<14.0.0,>=10.11.0 in /usr/local/lib/python3.10/dist-packages (from typer[all]<1.0,>=0.9->gradio) (13.7.0)\n",
+            "Requirement already satisfied: h11>=0.8 in /usr/local/lib/python3.10/dist-packages (from uvicorn>=0.14.0->gradio) (0.14.0)\n",
+            "Requirement already satisfied: starlette<0.36.0,>=0.35.0 in /usr/local/lib/python3.10/dist-packages (from fastapi->gradio) (0.35.1)\n",
+            "Requirement already satisfied: anyio in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (3.7.1)\n",
+            "Requirement already satisfied: certifi in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (2023.11.17)\n",
+            "Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (1.0.2)\n",
+            "Requirement already satisfied: idna in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (3.6)\n",
+            "Requirement already satisfied: sniffio in /usr/local/lib/python3.10/dist-packages (from httpx->gradio) (1.3.0)\n",
+            "Requirement already satisfied: attrs>=22.2.0 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (23.2.0)\n",
+            "Requirement already satisfied: jsonschema-specifications>=2023.03.6 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (2023.12.1)\n",
+            "Requirement already satisfied: referencing>=0.28.4 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (0.32.1)\n",
+            "Requirement already satisfied: rpds-py>=0.7.1 in /usr/local/lib/python3.10/dist-packages (from jsonschema>=3.0->altair<6.0,>=4.2.0->gradio) (0.17.1)\n",
+            "Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.10/dist-packages (from python-dateutil>=2.7->matplotlib~=3.0->gradio) (1.16.0)\n",
+            "Requirement already satisfied: markdown-it-py>=2.2.0 in /usr/local/lib/python3.10/dist-packages (from rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (3.0.0)\n",
+            "Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /usr/local/lib/python3.10/dist-packages (from rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (2.16.1)\n",
+            "Requirement already satisfied: exceptiongroup in /usr/local/lib/python3.10/dist-packages (from anyio->httpx->gradio) (1.2.0)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.19.3->gradio) (3.3.2)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.19.3->gradio) (2.0.7)\n",
+            "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.10/dist-packages (from markdown-it-py>=2.2.0->rich<14.0.0,>=10.11.0->typer[all]<1.0,>=0.9->gradio) (0.1.2)\n",
+            "Installing collected packages: typing-extensions\n",
+            "  Attempting uninstall: typing-extensions\n",
+            "    Found existing installation: typing-extensions 3.10.0.2\n",
+            "    Uninstalling typing-extensions-3.10.0.2:\n",
+            "      Successfully uninstalled typing-extensions-3.10.0.2\n",
+            "\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n",
+            "lida 0.0.10 requires kaleido, which is not installed.\n",
+            "tensorflow-probability 0.22.0 requires typing-extensions<4.6.0, but you have typing-extensions 4.9.0 which is incompatible.\u001b[0m\u001b[31m\n",
+            "\u001b[0mSuccessfully installed typing-extensions-4.9.0\n",
+            "Requirement already satisfied: typing-extensions in /usr/local/lib/python3.10/dist-packages (4.9.0)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import gradio as gr\n",
+        "\n",
+        "def chatbot_interaction(question):\n",
+        "    response = chatbot(question)[0]['generated_text']\n",
+        "    return response\n",
+        "\n",
+        "iface = gr.Interface(fn=chatbot_interaction, inputs=\"text\", outputs=\"text\")\n",
+        "iface.launch()\n"
+      ],
+      "metadata": {
+        "id": "aevj0Xm5YeGY",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 626
+        },
+        "outputId": "667a0e9c-7a38-4f99-bd46-82fc5538aa65"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Setting queue=True in a Colab notebook requires sharing enabled. Setting `share=True` (you can turn this off by setting `share=False` in `launch()` explicitly).\n",
+            "\n",
+            "Colab notebook detected. To show errors in colab notebook, set debug=True in launch()\n",
+            "Running on public URL: https://46bb01cdb44b79ceaf.gradio.live\n",
+            "\n",
+            "This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "<div><iframe src=\"https://46bb01cdb44b79ceaf.gradio.live\" width=\"100%\" height=\"500\" allow=\"autoplay; camera; microphone; clipboard-read; clipboard-write;\" frameborder=\"0\" allowfullscreen></iframe></div>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": []
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from flask import Flask, render_template, request\n",
+        "\n",
+        "app = Flask(__name__)\n",
+        "\n",
+        "@app.route('/upload', methods=['POST'])\n",
+        "def upload_file():\n",
+        "    if 'file' not in request.files:\n",
+        "        # Handle error\n",
+        "        return render_template('error.html')\n",
+        "\n",
+        "    file = request.files['file']\n",
+        "\n",
+        "    # Implement validation checks here\n",
+        "\n",
+        "    # Save the file to an appropriate location\n",
+        "    file.save('uploads/' + file.filename)\n",
+        "\n",
+        "    # Handle successful upload\n",
+        "    return render_template('success.html')\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "ahaMTSvIYeJY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install PyMuPDF\n",
+        "!pip install opencv-python\n",
+        "!pip install sentence-transformers\n"
+      ],
+      "metadata": {
+        "id": "JTnVBQnCZsly",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5510cdf2-cf31-47cf-b22f-aaf8ed0b786e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting PyMuPDF\n",
+            "  Downloading PyMuPDF-1.23.19-cp310-none-manylinux2014_x86_64.whl (4.4 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.4/4.4 MB\u001b[0m \u001b[31m18.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hCollecting PyMuPDFb==1.23.9 (from PyMuPDF)\n",
+            "  Downloading PyMuPDFb-1.23.9-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (30.6 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m30.6/30.6 MB\u001b[0m \u001b[31m40.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hInstalling collected packages: PyMuPDFb, PyMuPDF\n",
+            "Successfully installed PyMuPDF-1.23.19 PyMuPDFb-1.23.9\n",
+            "Requirement already satisfied: opencv-python in /usr/local/lib/python3.10/dist-packages (4.8.0.76)\n",
+            "Requirement already satisfied: numpy>=1.21.2 in /usr/local/lib/python3.10/dist-packages (from opencv-python) (1.23.5)\n",
+            "Collecting sentence-transformers\n",
+            "  Downloading sentence-transformers-2.2.2.tar.gz (85 kB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m86.0/86.0 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25h  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "Requirement already satisfied: transformers<5.0.0,>=4.6.0 in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (4.35.2)\n",
+            "Requirement already satisfied: tqdm in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (4.66.1)\n",
+            "Requirement already satisfied: torch>=1.6.0 in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (2.1.0+cu121)\n",
+            "Requirement already satisfied: torchvision in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (0.16.0+cu121)\n",
+            "Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (1.23.5)\n",
+            "Requirement already satisfied: scikit-learn in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (1.2.2)\n",
+            "Requirement already satisfied: scipy in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (1.11.4)\n",
+            "Requirement already satisfied: nltk in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (3.8.1)\n",
+            "Collecting sentencepiece (from sentence-transformers)\n",
+            "  Downloading sentencepiece-0.1.99-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.3/1.3 MB\u001b[0m \u001b[31m14.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hRequirement already satisfied: huggingface-hub>=0.4.0 in /usr/local/lib/python3.10/dist-packages (from sentence-transformers) (0.21.0.dev0)\n",
+            "Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (3.13.1)\n",
+            "Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (2023.6.0)\n",
+            "Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (2.31.0)\n",
+            "Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (6.0.1)\n",
+            "Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (4.9.0)\n",
+            "Requirement already satisfied: packaging>=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.4.0->sentence-transformers) (23.2)\n",
+            "Requirement already satisfied: sympy in /usr/local/lib/python3.10/dist-packages (from torch>=1.6.0->sentence-transformers) (1.12)\n",
+            "Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch>=1.6.0->sentence-transformers) (3.2.1)\n",
+            "Requirement already satisfied: jinja2 in /usr/local/lib/python3.10/dist-packages (from torch>=1.6.0->sentence-transformers) (3.1.3)\n",
+            "Requirement already satisfied: triton==2.1.0 in /usr/local/lib/python3.10/dist-packages (from torch>=1.6.0->sentence-transformers) (2.1.0)\n",
+            "Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from transformers<5.0.0,>=4.6.0->sentence-transformers) (2023.6.3)\n",
+            "Requirement already satisfied: tokenizers<0.19,>=0.14 in /usr/local/lib/python3.10/dist-packages (from transformers<5.0.0,>=4.6.0->sentence-transformers) (0.15.1)\n",
+            "Requirement already satisfied: safetensors>=0.3.1 in /usr/local/lib/python3.10/dist-packages (from transformers<5.0.0,>=4.6.0->sentence-transformers) (0.4.1)\n",
+            "Requirement already satisfied: click in /usr/local/lib/python3.10/dist-packages (from nltk->sentence-transformers) (8.1.7)\n",
+            "Requirement already satisfied: joblib in /usr/local/lib/python3.10/dist-packages (from nltk->sentence-transformers) (1.3.2)\n",
+            "Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.10/dist-packages (from scikit-learn->sentence-transformers) (3.2.0)\n",
+            "Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /usr/local/lib/python3.10/dist-packages (from torchvision->sentence-transformers) (9.4.0)\n",
+            "Requirement already satisfied: MarkupSafe>=2.0 in /usr/local/lib/python3.10/dist-packages (from jinja2->torch>=1.6.0->sentence-transformers) (2.1.4)\n",
+            "Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.4.0->sentence-transformers) (3.3.2)\n",
+            "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.4.0->sentence-transformers) (3.6)\n",
+            "Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.4.0->sentence-transformers) (2.0.7)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->huggingface-hub>=0.4.0->sentence-transformers) (2023.11.17)\n",
+            "Requirement already satisfied: mpmath>=0.19 in /usr/local/lib/python3.10/dist-packages (from sympy->torch>=1.6.0->sentence-transformers) (1.3.0)\n",
+            "Building wheels for collected packages: sentence-transformers\n",
+            "  Building wheel for sentence-transformers (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for sentence-transformers: filename=sentence_transformers-2.2.2-py3-none-any.whl size=125923 sha256=5a79553c620949d60811c2335014b42d809782d804744cc6f89810ae4d03c954\n",
+            "  Stored in directory: /root/.cache/pip/wheels/62/f2/10/1e606fd5f02395388f74e7462910fe851042f97238cbbd902f\n",
+            "Successfully built sentence-transformers\n",
+            "Installing collected packages: sentencepiece, sentence-transformers\n",
+            "Successfully installed sentence-transformers-2.2.2 sentencepiece-0.1.99\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import fitz  # PyMuPDF\n",
+        "from sentence_transformers import SentenceTransformer\n",
+        "import os\n",
+        "\n",
+        "# Load pre-trained BERT model for embeddings\n",
+        "bert_model = SentenceTransformer('bert-base-uncased')\n",
+        "\n",
+        "def process_pdf(pdf_path):\n",
+        "    doc = fitz.open(pdf_path)\n",
+        "    text_content = \"\"\n",
+        "\n",
+        "    for page_num in range(doc.page_count):\n",
+        "        page = doc[page_num]\n",
+        "        text_content += page.get_text()\n",
+        "\n",
+        "    # Convert text_content to BERT embeddings\n",
+        "    pdf_embeddings = bert_model.encode([text_content])\n",
+        "\n",
+        "    return pdf_embeddings\n",
+        "\n",
+        "# Example Usage:\n",
+        "pdf_path = \"/content/FinTech.pdf\"\n",
+        "\n",
+        "\n",
+        "pdf_embeddings = process_pdf(pdf_path)\n",
+        "print(\"PDF Embeddings:\", pdf_embeddings)\n"
+      ],
+      "metadata": {
+        "id": "17x4mXirZ6-s",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "0a86f7f9-ad9d-4d77-f12b-c62b7678a187"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name /root/.cache/torch/sentence_transformers/bert-base-uncased. Creating a new one with MEAN pooling.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "PDF Embeddings: [[-2.70890892e-01  2.72125185e-01  4.80667144e-01 -1.05828725e-01\n",
+            "   4.45013463e-01 -2.22023204e-01 -2.80764878e-01  4.07008111e-01\n",
+            "  -1.70530200e-01 -2.46121734e-02 -3.30412537e-01 -3.94452572e-01\n",
+            "  -1.30949587e-01  2.19349265e-01 -4.18403000e-02  6.33034229e-01\n",
+            "   1.92076832e-01 -1.00631034e-02 -2.25084662e-01  2.62686878e-01\n",
+            "   1.63493127e-01  3.43421809e-02  1.15673020e-01  6.39053822e-01\n",
+            "   3.32501233e-01 -3.03380527e-02 -5.49444631e-02  8.89413655e-02\n",
+            "  -3.05366665e-01 -1.22901104e-01  7.88709223e-01  1.37130275e-01\n",
+            "  -3.40793610e-01 -1.67631328e-01  1.64907306e-01  5.97388521e-02\n",
+            "  -2.24358976e-01 -4.46773350e-01 -7.83200711e-02  1.82822928e-01\n",
+            "  -3.99886698e-01 -4.62290943e-02 -1.48910329e-01  6.92255050e-02\n",
+            "  -1.58213466e-01 -2.93768078e-01  3.06782246e-01 -1.33886293e-01\n",
+            "  -1.68599293e-01  8.45186859e-02 -5.58541298e-01 -5.48979752e-02\n",
+            "   1.21336542e-02 -1.80916682e-01  4.69479382e-01  5.91509819e-01\n",
+            "  -2.11884379e-01 -5.16693830e-01 -4.64801490e-01 -3.10811967e-01\n",
+            "   2.64399976e-01 -4.21226919e-02  3.37674379e-01 -3.55978251e-01\n",
+            "   4.17019367e-01 -4.81311306e-02 -8.57157633e-04  3.38721216e-01\n",
+            "  -6.33122027e-01 -3.20681781e-01 -3.51406366e-01 -2.15563849e-02\n",
+            "  -3.68778288e-01  4.42226343e-02 -8.24360847e-02  9.75037813e-02\n",
+            "  -6.90424293e-02  3.94864798e-01 -1.33472428e-01  1.52503863e-01\n",
+            "  -1.27625108e-01  4.73248005e-01 -9.04382318e-02  4.08746064e-01\n",
+            "   6.64630160e-02  2.37627342e-01  7.83364773e-02  2.46374443e-01\n",
+            "  -3.53029221e-01  4.46812928e-01  1.91301405e-01 -1.86060607e-01\n",
+            "   1.18274078e-01  3.11216656e-02  1.75538659e-01 -1.58990547e-01\n",
+            "   1.72469020e-01 -1.05477437e-01 -1.84000671e-01  4.44974065e-01\n",
+            "   3.15140709e-02  9.28486660e-02  9.39987525e-02  4.39701229e-02\n",
+            "  -4.82281670e-02  5.40931076e-02  2.15776682e-01  2.19027549e-01\n",
+            "  -1.61227122e-01  4.73830640e-01  3.96415353e-01 -1.62616223e-01\n",
+            "  -6.38397783e-02 -5.46555519e-01 -1.21029779e-01  3.30650806e-03\n",
+            "   8.33358690e-02  1.23326205e-01  3.99877876e-03  3.19050014e-01\n",
+            "   3.50272566e-01 -3.13918591e-01  1.58704773e-01  5.55511713e-01\n",
+            "   1.32295206e-01 -7.25373626e-03  1.63155831e-02  3.49967808e-01\n",
+            "  -5.24346083e-02 -3.53360921e-01  1.38520300e-01  1.88761458e-01\n",
+            "  -3.43326479e-03 -2.00883359e-01 -5.31552017e-01  5.52749395e-01\n",
+            "  -3.13256323e-01 -3.34805608e-01 -2.59364098e-01  1.01792701e-02\n",
+            "   3.37575600e-02 -3.07228267e-01  2.27679759e-01 -1.74323082e-01\n",
+            "   5.74020743e-02 -1.77255809e-01 -3.45526189e-02 -1.05533704e-01\n",
+            "  -8.63587260e-02  3.28431785e-01  1.95613772e-01 -3.26949954e-02\n",
+            "   2.21503265e-02 -1.48714498e-01 -9.83852148e-02 -1.82827502e-01\n",
+            "  -9.06444937e-02  2.74690956e-01 -1.41944662e-01 -2.10503846e-01\n",
+            "   4.03464317e-01  7.32831378e-03 -3.35617483e-01  2.70562440e-01\n",
+            "  -6.49450421e-02 -2.70008333e-02 -8.84795263e-02  5.06751001e-01\n",
+            "  -1.55003324e-01  5.75743541e-02 -1.76906854e-01 -2.55652070e-01\n",
+            "   7.34226704e-01 -1.09566823e-01  2.49992400e-01  1.42324671e-01\n",
+            "   2.24845111e-01  9.74371284e-02  3.03994119e-01  8.48437622e-02\n",
+            "  -6.92830682e-01  3.09710205e-01 -7.33819380e-02 -3.13413814e-02\n",
+            "   6.16466478e-02 -8.82681757e-02  2.68377542e-01 -2.30111763e-01\n",
+            "   2.33450741e-01 -1.14124104e-01 -3.40691090e-01 -2.81595141e-01\n",
+            "  -4.55952175e-02 -1.24443725e-01  1.34113744e-01 -3.39034051e-01\n",
+            "   2.22219639e-02  1.97931342e-02 -6.41608357e-01 -2.82063514e-01\n",
+            "   8.01151991e-02  2.87399203e-01  1.90461874e-01  2.31817365e-01\n",
+            "  -1.62040800e-01 -4.35193002e-01  8.92025232e-02 -3.99723113e-01\n",
+            "  -1.48605227e-01  6.36541620e-02 -3.27588856e-01  4.14942592e-01\n",
+            "   1.93975400e-02  1.07420020e-01 -9.81918722e-02 -5.75515702e-02\n",
+            "  -1.54919252e-01  1.57668754e-01  1.86292872e-01 -6.38875291e-02\n",
+            "   1.53880894e-01  1.49049222e-01 -2.89946198e-01  4.88664746e-01\n",
+            "  -1.57322600e-01  7.83243954e-01 -7.01944456e-02 -5.86041808e-01\n",
+            "   4.65208620e-01  5.15581250e-01  1.38422579e-01 -3.19119632e-01\n",
+            "   7.94767380e-01 -3.17985773e-01 -8.11758712e-02  4.68118116e-04\n",
+            "  -3.82951558e-01 -1.62105322e-01  2.06355155e-01 -3.97844464e-01\n",
+            "  -1.15644738e-01  4.50833917e-01  1.69971347e-01  1.21106304e-01\n",
+            "   2.74704874e-01 -1.77852809e-01 -1.45450205e-01  6.50969371e-02\n",
+            "  -1.87510118e-01 -3.61283720e-01 -5.94739735e-01  4.42915820e-02\n",
+            "  -1.35465175e-01 -4.36840892e-01 -3.38578522e-01 -2.12537080e-01\n",
+            "  -3.07861328e-01 -1.98420197e-01 -5.62095828e-02  1.70871288e-01\n",
+            "   1.82502627e-01 -9.56757441e-02 -4.49417979e-02 -1.63265839e-02\n",
+            "  -3.54172945e-01 -6.43370867e-01  3.73170614e-01  6.07816763e-02\n",
+            "   4.19728681e-02  2.32003301e-01  2.24432737e-01  3.01222019e-02\n",
+            "  -1.68476030e-01  6.67263806e-01 -4.63946223e-01 -1.46881282e-01\n",
+            "   4.69753027e-01  3.11787426e-02  1.81541517e-02  3.40367481e-03\n",
+            "   1.16633773e-01  1.73888087e-01 -1.99941099e-01 -5.12737073e-02\n",
+            "  -3.20342541e-01 -1.19945481e-01  3.30163062e-01 -1.41810074e-01\n",
+            "  -6.57833815e-02 -4.22491618e-02 -1.81425631e-01  2.86468714e-01\n",
+            "  -3.07696670e-01 -4.01680648e-01  4.31704342e-01  3.20113122e-01\n",
+            "  -7.02755079e-02  2.58032978e-01  1.90792903e-01 -1.95281565e-01\n",
+            "  -2.44691759e-01 -4.26074624e-01  3.33817065e-01  1.80629641e-01\n",
+            "   5.76685369e-03  2.52425104e-01 -9.08709243e-02 -4.16362464e-01\n",
+            "  -2.60814905e+00  1.79478884e-01 -1.60482243e-01 -2.00352952e-01\n",
+            "   1.66811496e-01 -4.11953032e-02  1.40244067e-01 -6.34209216e-02\n",
+            "  -3.84145290e-01 -2.57633924e-02 -1.12230673e-01 -2.42188364e-01\n",
+            "   3.34825993e-01  3.00592571e-01  2.33358562e-01  1.05190970e-01\n",
+            "  -6.07293174e-02 -3.47091019e-01 -5.24391085e-02  3.62643063e-01\n",
+            "  -2.09407598e-01 -7.18648493e-01  1.29230410e-01 -1.29329607e-01\n",
+            "   2.22722083e-01  6.29042506e-01 -2.67687321e-01 -2.14593619e-01\n",
+            "  -1.99696377e-01 -2.63659567e-01  3.85566279e-02 -5.49683809e-01\n",
+            "  -1.20233342e-01  3.04147184e-01  1.38158187e-01  3.11393645e-02\n",
+            "   2.92364657e-02 -2.46775687e-01 -2.29317695e-01 -3.49796772e-01\n",
+            "   1.30004600e-01 -6.40396237e-01 -2.89823674e-02 -2.79649794e-01\n",
+            "   8.34585786e-01 -2.76745766e-01  1.02098130e-01 -3.50061096e-02\n",
+            "   7.36790001e-02  2.39088774e-01  1.39501899e-01  5.52347526e-02\n",
+            "  -3.90145898e-01 -5.97918220e-02 -8.34160224e-02 -4.49621826e-02\n",
+            "   4.83315498e-01  2.35101670e-01 -2.77819693e-01 -1.55153751e-01\n",
+            "   3.14068466e-01 -2.24987686e-01 -4.16809618e-01 -1.07135095e-01\n",
+            "  -2.23718837e-01 -1.68926015e-01 -7.17071414e-01 -4.71285820e-01\n",
+            "   1.97327390e-01 -6.09047338e-02 -1.37740195e-01  7.46365845e-01\n",
+            "  -2.90500343e-01 -1.31809637e-01 -1.94418639e-01 -5.29011846e-01\n",
+            "   3.41917604e-01 -9.38034728e-02 -3.94275747e-02 -2.17150062e-01\n",
+            "  -1.16356015e-01 -2.54756808e-01 -9.50661227e-02 -3.11122481e-02\n",
+            "  -1.03501543e-01 -2.20699906e-01  5.50317019e-02 -3.47758114e-01\n",
+            "  -4.45628762e-01 -7.23216176e-01  3.74428302e-01  2.44208902e-01\n",
+            "   8.20126161e-02  9.97347012e-02 -6.61958158e-02 -1.70957521e-02\n",
+            "   2.55371630e-01  1.33003429e-01  2.13649049e-01 -3.58191013e-01\n",
+            "   3.50519776e-01 -7.23295361e-02  6.29343867e-01 -4.02889907e-01\n",
+            "  -1.01027429e-01  1.02980345e-01 -3.45168173e-01 -5.84373251e-02\n",
+            "   1.72957420e-01 -2.34987989e-01  3.28187287e-01 -2.49638528e-01\n",
+            "   3.92678350e-01 -5.67387164e-01 -9.44748074e-02 -8.70923847e-02\n",
+            "   9.45468396e-02  6.09211802e-01 -3.52081247e-02 -2.62261987e-01\n",
+            "  -1.21544823e-01  4.46459144e-01 -1.13710150e-01 -2.03556627e-01\n",
+            "  -4.21617478e-01  4.62423936e-02 -3.20604622e-01  1.26571670e-01\n",
+            "   1.32820727e-02 -8.02008659e-02 -2.82730103e-01 -2.93656141e-02\n",
+            "  -8.72693211e-02  2.69469351e-01  2.76639372e-01  2.20618039e-01\n",
+            "   3.13736126e-03 -5.81526399e-01 -1.22425362e-01  2.01282784e-01\n",
+            "   2.55078912e-01  2.79680580e-01 -1.72988415e-01 -2.30680048e-01\n",
+            "   1.68141454e-01  1.75025880e-01  2.10505351e-03  3.08776975e-01\n",
+            "  -9.60104093e-02  1.05191380e-01 -5.12404501e-01 -1.64814800e-01\n",
+            "  -1.34325311e-01 -1.03724472e-01  1.61622494e-01  1.54330716e-01\n",
+            "   2.22707361e-01 -6.55522197e-03 -1.80838518e-02 -3.22180986e-01\n",
+            "   1.53677151e-01  9.30367261e-02  3.55838239e-01  6.97395951e-02\n",
+            "  -1.53488949e-01  5.12744188e-01 -6.98404461e-02 -7.27820843e-02\n",
+            "  -4.35150638e-02 -1.33108050e-01 -2.51890838e-01 -4.87547070e-02\n",
+            "   5.54433241e-02 -3.61827374e-01 -4.65573892e-02  5.01246810e-01\n",
+            "   1.22440800e-01 -4.11218703e-01 -1.70090258e-01  3.55194211e-01\n",
+            "   8.34724829e-02 -2.93824583e-01 -2.91701317e-01 -3.72881405e-02\n",
+            "   2.94126928e-01  1.94398075e-01  3.78374279e-01 -4.35061753e-01\n",
+            "  -2.40934510e-02  5.99375889e-02 -2.43269652e-03  2.73675114e-01\n",
+            "   9.69265848e-02 -5.99379912e-02 -1.58519596e-01 -2.35023379e-01\n",
+            "   3.25425386e-01 -4.67067063e-01 -1.25879198e-01  2.49461919e-01\n",
+            "   1.99932486e-01  2.44789831e-02 -2.82418847e-01 -7.10817575e-02\n",
+            "  -3.17613631e-01 -4.00289178e-01 -9.45389271e-03  9.40470323e-02\n",
+            "   1.06348265e-02  2.65023798e-01 -5.27692080e-01 -1.28993928e-01\n",
+            "  -2.88474649e-01  8.79952013e-02  1.74650013e-01 -4.11574721e-01\n",
+            "  -3.89098972e-02 -1.90258950e-01 -4.94883657e-01  1.34358197e-01\n",
+            "   3.16707864e-02 -1.09478220e-01  3.03029895e-01 -2.20104083e-02\n",
+            "  -2.00550258e-01  5.35111912e-02  9.52528119e-02  8.62585455e-02\n",
+            "  -2.54661679e-01 -2.31683537e-01 -1.05561808e-01 -1.03399706e+00\n",
+            "   1.29881188e-01 -9.29287635e-03 -2.33015776e-01  4.89143804e-02\n",
+            "  -4.29363512e-02 -7.47212708e-01 -1.79529935e-02 -1.45008087e-01\n",
+            "  -7.13317245e-02 -1.57850608e-02 -1.36365220e-01 -2.68776476e-01\n",
+            "   3.05013001e-01  5.61323501e-02 -1.52065307e-02  4.47611094e-01\n",
+            "  -3.58689636e-01  3.27786922e-01 -2.41858527e-01  6.08215854e-03\n",
+            "  -1.31951541e-01 -3.28051567e-01  2.60809690e-01 -3.70802432e-01\n",
+            "  -2.99328506e-01 -4.58610952e-02 -8.52137282e-02 -1.63991705e-01\n",
+            "  -1.23149917e-01 -1.79611593e-01 -7.88724869e-02 -8.62424746e-02\n",
+            "   3.55192274e-01  4.59164232e-02 -1.28776893e-01  1.42188430e-01\n",
+            "   1.88228056e-01 -3.53344917e-01  1.19052622e-02 -1.24360159e-01\n",
+            "   4.62105907e-02 -2.72146881e-01  1.45680070e-01  2.63123870e-01\n",
+            "   5.27355447e-02 -3.74980807e-01  1.58114940e-01 -5.06795108e-01\n",
+            "  -4.35684681e-01 -7.79823810e-02  1.02267154e-02 -6.89084977e-02\n",
+            "   2.14044988e-01 -5.89280367e-01 -2.65790783e-02  5.26083231e-01\n",
+            "  -6.53592274e-02 -1.50660038e-01  2.79629111e-01 -1.00511529e-01\n",
+            "  -1.81975916e-01  8.81411582e-02 -3.79782677e-01 -4.02584448e-02\n",
+            "   7.35755384e-01  2.26036310e-01  8.85564461e-02  2.30139062e-01\n",
+            "   4.30131517e-02  2.34660935e-02  2.96706259e-01 -1.64012790e-01\n",
+            "   1.06571630e-01  6.89493790e-02  5.66930324e-02 -4.84147817e-01\n",
+            "  -1.69183120e-01  1.63955763e-01  1.99169926e-02 -4.31408048e-01\n",
+            "   6.96402192e-01  4.03923333e-01 -6.93308711e-02 -4.18139488e-01\n",
+            "  -2.69778967e-01 -1.93576932e-01  1.24509096e-01 -1.79873228e-01\n",
+            "   6.06113598e-02  2.00849161e-01  4.83110279e-01 -9.32323188e-02\n",
+            "   1.25354066e-01  2.81376898e-01 -1.63659900e-01 -3.17683853e-02\n",
+            "  -2.53499448e-02  4.81592044e-02  8.99989605e-02  3.63392502e-01\n",
+            "   2.13567913e-03  3.10521066e-01 -5.26300371e-02  5.36037162e-02\n",
+            "  -1.52216628e-01 -7.28731826e-02  2.85747759e-02  2.25715905e-01\n",
+            "  -5.36648557e-02 -1.12161376e-02  3.44774663e-01  3.44280779e-01\n",
+            "   1.09338753e-01  3.38856041e-01  3.03136647e-01  1.48303673e-01\n",
+            "   5.41778207e-01  3.64488602e-01  4.20053005e-01  2.81148583e-01\n",
+            "   4.36785184e-02  2.24628448e-02  2.66916454e-01  9.84874293e-02\n",
+            "   4.26848471e-01  2.01402456e-01 -7.56455883e-02  7.94719398e-01\n",
+            "   1.70574039e-01  5.05676270e-01  5.55054247e-01 -4.47359741e-01\n",
+            "  -1.26339182e-01  1.53122634e-01  3.88851821e-01 -4.40498292e-01\n",
+            "   9.05841962e-02 -1.16636306e-02 -5.06116599e-02  1.81213230e-01\n",
+            "  -5.32256663e-01 -2.88371235e-01 -4.69623767e-02  3.39883238e-01\n",
+            "   2.81249464e-01 -2.75429096e-02 -9.25486833e-02  6.73004240e-02\n",
+            "  -3.58475864e-01 -3.41924340e-01 -3.38451684e-01 -3.89723152e-01\n",
+            "  -1.38220549e-01 -4.20748115e-01  6.80030808e-02  2.69193202e-02\n",
+            "  -2.26303071e-01 -3.47786605e-01  4.36710976e-02 -1.78092450e-01\n",
+            "   3.56298476e-01 -7.13692680e-02 -1.51892886e-01 -1.15779705e-01\n",
+            "   5.89215875e-01  2.77217686e-01  5.84954977e-01 -1.79617360e-01\n",
+            "   4.44416627e-02 -2.24327356e-01 -3.22815567e-01  3.48593332e-02\n",
+            "   2.47453213e-01  1.10109210e-01  1.16551697e-01  4.25892144e-01\n",
+            "  -5.44863820e-01 -1.25629067e-01  7.63382018e-03  3.68369460e-01\n",
+            "  -4.15942311e-01 -3.37707549e-02 -9.97592658e-02 -1.21016875e-01\n",
+            "  -1.10117778e-01 -4.10620272e-02 -3.59370887e-01  2.96364594e-02\n",
+            "  -9.09054875e-02 -3.43125403e-01  6.61328137e-02 -7.19083846e-02\n",
+            "  -3.64268810e-01  2.03080371e-01  4.01737869e-01  2.54994571e-01\n",
+            "  -1.79408401e-01 -1.64531171e-03 -1.57639578e-01  4.78134006e-02\n",
+            "   1.19861826e-01  2.82776296e-01 -1.74533091e-02 -3.77833396e-01\n",
+            "  -2.33521789e-01  2.24052832e-01 -2.60231405e-01  1.37107715e-01\n",
+            "   1.18554197e-02  5.92233300e-01  1.07170850e-01 -5.52959777e-02\n",
+            "   4.96805161e-01 -1.28056079e-01 -3.80129516e-01 -1.28116980e-01\n",
+            "  -6.01470582e-02 -1.86098844e-01 -1.12208188e-01 -6.33032024e-02\n",
+            "   2.59116054e-01 -4.12456512e-01 -1.25740170e-01 -3.79146844e-01\n",
+            "   2.42184103e-03 -2.55962223e-01 -4.93228659e-02  1.17362529e-01]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import cv2\n",
+        "from sentence_transformers import SentenceTransformer\n",
+        "import os\n",
+        "\n",
+        "# Load pre-trained BERT model for embeddings\n",
+        "bert_model = SentenceTransformer('bert-base-uncased')\n",
+        "\n",
+        "def process_video(video_path):\n",
+        "    cap = cv2.VideoCapture(video_path)\n",
+        "    frames = []\n",
+        "\n",
+        "    while cap.isOpened():\n",
+        "        ret, frame = cap.read()\n",
+        "\n",
+        "        if not ret:\n",
+        "            break\n",
+        "\n",
+        "        # Preprocess frame as needed\n",
+        "        # ...\n",
+        "\n",
+        "        frames.append(frame)\n",
+        "\n",
+        "    cap.release()\n",
+        "\n",
+        "    # Convert frames to BERT embeddings\n",
+        "    video_embeddings = bert_model.encode(frames)\n",
+        "\n",
+        "    return video_embeddings\n",
+        "\n",
+        "# Example Usage:\n",
+        "video_path = \"path/to/your/video.mp4\"\n",
+        "video_embeddings = process_video(video_path)\n",
+        "print(\"Video Embeddings:\", video_embeddings)\n"
+      ],
+      "metadata": {
+        "id": "kqVUlol9Z7Eb",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "92d123c5-3019-4c33-8587-08f8804e6fac"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "WARNING:sentence_transformers.SentenceTransformer:No sentence-transformers model found with name /root/.cache/torch/sentence_transformers/bert-base-uncased. Creating a new one with MEAN pooling.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Video Embeddings: []\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "{\n",
+        "  \"users\": [\n",
+        "    {\n",
+        "      \"user_id\": \"unique_user_id\",\n",
+        "      \"username\": \"abhishekkale320\",\n",
+        "      \"email\": \"user123@example.com\",\n",
+        "      \"password\": \"btFPVZAZI7BBNxww\",\n",
+        "      \"created_at\": \"timestamp\",\n",
+        "      \"materials\": [\n",
+        "        {\n",
+        "          \"material_id\": \"unique_material_id\",\n",
+        "          \"title\": \"Introduction to AI\",\n",
+        "          \"type\": \"pdf\",\n",
+        "          \"upload_date\": \"timestamp\",\n",
+        "          \"content\": \"path_to_uploaded_file.pdf\",\n",
+        "          \"embeddings\": [\n",
+        "            {\n",
+        "              \"embedding_id\": \"unique_embedding_id\",\n",
+        "              \"method\": \"BERT\",\n",
+        "              \"vector\": [0.1, 0.2, ..., 0.9]\n",
+        "            }\n",
+        "          ]\n",
+        "        }\n",
+        "      ]\n",
+        "    }\n",
+        "  ]\n",
+        "}\n"
+      ],
+      "metadata": {
+        "id": "N__bpAT3Z7Ta",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "bcc21bfb-f6f5-4bb6-93a0-529ea89d5bfc"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "{'users': [{'user_id': 'unique_user_id',\n",
+              "   'username': 'abhishekkale320',\n",
+              "   'email': 'user123@example.com',\n",
+              "   'password': 'btFPVZAZI7BBNxww',\n",
+              "   'created_at': 'timestamp',\n",
+              "   'materials': [{'material_id': 'unique_material_id',\n",
+              "     'title': 'Introduction to AI',\n",
+              "     'type': 'pdf',\n",
+              "     'upload_date': 'timestamp',\n",
+              "     'content': 'path_to_uploaded_file.pdf',\n",
+              "     'embeddings': [{'embedding_id': 'unique_embedding_id',\n",
+              "       'method': 'BERT',\n",
+              "       'vector': [0.1, 0.2, Ellipsis, 0.9]}]}]}]}"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 26
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import faiss\n",
+        "import numpy as np\n",
+        "\n",
+        "# Assume you have a list of embeddings as flat vectors\n",
+        "embeddings = [\n",
+        "    [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],\n",
+        "    # Other embeddings\n",
+        "]\n",
+        "\n",
+        "# Convert embeddings to numpy array\n",
+        "embedding_array = np.array(embeddings).astype('float32')\n",
+        "\n",
+        "# Try creating an index with faiss using IndexFlat\n",
+        "try:\n",
+        "    index = faiss.IndexFlat(embedding_array.shape[1])\n",
+        "except AttributeError:\n",
+        "    raise AttributeError(\"Faiss does not have a suitable index type. Please check your Faiss version.\")\n",
+        "\n",
+        "index.add(embedding_array)\n",
+        "\n",
+        "# Query for nearest neighbors\n",
+        "query_embedding = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 0.1, 0.2]\n",
+        "query_embedding = np.array([query_embedding]).astype('float32')\n",
+        "_, nn_indices = index.search(query_embedding, k=5)\n",
+        "\n",
+        "# nn_indices now contains the indices of the 5 nearest neighbors\n",
+        "print(\"Nearest Neighbors Indices:\", nn_indices)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AHD5BkIANHdv",
+        "outputId": "521dfd20-277d-4f85-fbb5-1eeb50e46525"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nearest Neighbors Indices: [[ 0 -1 -1 -1 -1]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install faiss-cpu --no-cache-dir -f https://github.com/facebookresearch/faiss/releases/tag/v1.7.1\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1c2MVNvvQcRX",
+        "outputId": "f63dae5c-62f7-4cb5-e8bf-60ea24c8a68e"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Looking in links: https://github.com/facebookresearch/faiss/releases/tag/v1.7.1\n",
+            "Requirement already satisfied: faiss-cpu in /usr/local/lib/python3.10/dist-packages (1.7.4)\n",
+            "\u001b[33mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv\u001b[0m\u001b[33m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Example Evaluation Data (replace with your actual data)\n",
+        "queries = [\"What is the capital of France?\", \"How does photosynthesis work?\"]\n",
+        "rag_responses = [\"Paris is the capital of France.\", \"Photosynthesis is a process in plants.\"]\n",
+        "gpt_responses = [\"The capital of France is Paris.\", \"Photosynthesis is how plants make food.\"]\n",
+        "\n",
+        "# Human Evaluation\n",
+        "human_scores_rag = [1, 0.5]  # Example human scores for RAG responses\n",
+        "human_scores_gpt = [0.5, 1]  # Example human scores for GPT responses\n",
+        "\n",
+        "# Automated Metrics (optional)\n",
+        "# You can use libraries like nltk or rouge for automated metrics\n",
+        "\n",
+        "# Analysis and Scoring System\n",
+        "def calculate_average_score(scores):\n",
+        "    return sum(scores) / len(scores)\n",
+        "\n",
+        "average_score_rag = calculate_average_score(human_scores_rag)\n",
+        "average_score_gpt = calculate_average_score(human_scores_gpt)\n",
+        "\n",
+        "print(f\"Average Human Score (RAG): {average_score_rag}\")\n",
+        "print(f\"Average Human Score (GPT): {average_score_gpt}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "grMtFGgbNHwf",
+        "outputId": "b1b2246f-69b0-4484-c223-8c9e09be7651"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Average Human Score (RAG): 0.75\n",
+            "Average Human Score (GPT): 0.75\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pip install --upgrade pip\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IH6ct-wPNH55",
+        "outputId": "35231c15-1615-4034-db5f-5f9159c94490"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: pip in /usr/local/lib/python3.10/dist-packages (23.1.2)\n",
+            "Collecting pip\n",
+            "  Downloading pip-23.3.2-py3-none-any.whl (2.1 MB)\n",
+            "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m16.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
+            "\u001b[?25hInstalling collected packages: pip\n",
+            "  Attempting uninstall: pip\n",
+            "    Found existing installation: pip 23.1.2\n",
+            "    Uninstalling pip-23.1.2:\n",
+            "      Successfully uninstalled pip-23.1.2\n",
+            "Successfully installed pip-23.3.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_GeohFl-YzH5",
+        "outputId": "2e55cebe-189d-4b69-c940-423f46230053"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "fatal: destination path 'faiss' already exists and is not an empty directory.\n",
+            "/content/faiss/faiss\n",
+            "\u001b[31mERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.\u001b[0m\u001b[31m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%cd /content/faiss/faiss\n",
+        "!pip install .\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R0U6bK_CYzaD",
+        "outputId": "12bb98c3-bf23-4937-b9c9-35b8dbb1ff9d"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "/content/faiss/faiss\n",
+            "\u001b[31mERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.\u001b[0m\u001b[31m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!git clone https://github.com/facebookresearch/faiss.git\n",
+        "%cd faiss\n",
+        "!pip install .\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WNriGvg9ZOKO",
+        "outputId": "8302b757-d10f-4dd8-e18f-a555a7a3fdcb"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cloning into 'faiss'...\n",
+            "remote: Enumerating objects: 49616, done.\u001b[K\n",
+            "remote: Counting objects: 100% (2190/2190), done.\u001b[K\n",
+            "remote: Compressing objects: 100% (330/330), done.\u001b[K\n",
+            "remote: Total 49616 (delta 1947), reused 2070 (delta 1859), pack-reused 47426\u001b[K\n",
+            "Receiving objects: 100% (49616/49616), 156.13 MiB | 32.27 MiB/s, done.\n",
+            "Resolving deltas: 100% (45156/45156), done.\n",
+            "/content/faiss/faiss/faiss\n",
+            "\u001b[31mERROR: Directory '.' is not installable. Neither 'setup.py' nor 'pyproject.toml' found.\u001b[0m\u001b[31m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install faiss-cpu==1.6.5 --no-cache-dir\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H4T4_xQjZc9-",
+        "outputId": "8ecb2108-d1c7-4976-e6df-aeb780206afd"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting faiss-cpu==1.6.5\n",
+            "  Downloading faiss-cpu-1.6.5.tar.gz (28 kB)\n",
+            "  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "Building wheels for collected packages: faiss-cpu\n",
+            "  \u001b[1;31merror\u001b[0m: \u001b[1msubprocess-exited-with-error\u001b[0m\n",
+            "  \n",
+            "  \u001b[31m×\u001b[0m \u001b[32mpython setup.py bdist_wheel\u001b[0m did not run successfully.\n",
+            "  \u001b[31m│\u001b[0m exit code: \u001b[1;36m1\u001b[0m\n",
+            "  \u001b[31m╰─>\u001b[0m See above for output.\n",
+            "  \n",
+            "  \u001b[1;35mnote\u001b[0m: This error originates from a subprocess, and is likely not a problem with pip.\n",
+            "  Building wheel for faiss-cpu (setup.py) ... \u001b[?25lerror\n",
+            "\u001b[31m  ERROR: Failed building wheel for faiss-cpu\u001b[0m\u001b[31m\n",
+            "\u001b[0m\u001b[?25h  Running setup.py clean for faiss-cpu\n",
+            "Failed to build faiss-cpu\n",
+            "\u001b[31mERROR: Could not build wheels for faiss-cpu, which is required to install pyproject.toml-based projects\u001b[0m\u001b[31m\n",
+            "\u001b[0m"
+          ]
+        }
+      ]
+    }
+  ]
+}
